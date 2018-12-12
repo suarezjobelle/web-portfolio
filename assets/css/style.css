@@ -4,28 +4,31 @@
 
 body {
 padding: 10px;
- background-image: url("../images/key.jpg");
+ background-image: url("../images/web.png");
 background-repeat: no-repeat;
-background-size: 110%;
-}
-h2{
-		color: white;
+background-size: cover;
+
+
 }
 
-/* Header/Blog Title */
+h2{
+		color: black;
+}
+.text{
+	color: black;
+	font-size: 20px;
+	font-family: "Courier New";
+	text-align: center;
+}
 .header {
-  padding: 60px;
+  padding: 10px;
   text-align: center;
 }
 
-
-/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
-
-/* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
@@ -35,67 +38,85 @@ h2{
   text-decoration: none;
 }
 
-/* Change color on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
 .leftcolumn {   
   float: left;
   width: 50%;
 }
 
-/* Right column */
 .rightcolumn {
   float: left;
   width: 50%;
   padding-left: 20px;
+}
+.middlecolumn {
+  float: left;
+  width: 100%;
+ 
 
 }
 
-/* Fake image */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
-
-/* Add a card effect for articles */
 .card {
-  background-color: #3d5377;
+  background-color: #9198a3;
   padding: 20px;
   margin-top: 20px; 
     height: 300px;
     opacity: .80;
-    border-radius: 4%;
+    border-radius: 10%;
+ box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.solocard {
+  background-color: #9198a3;
+  padding: 20px;
+  margin-top: 20px; 
+    height: 150px;
+    opacity: .80;
+    border-radius: 10%;
+ box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.projectcard {
+  background-color: #9198a3;
+  padding: 20px;
+  margin-top: 20px; 
+    height: 350px;
+    opacity: .80;
+    border-radius: 10%;
  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Footer */
 .footer {
   text-align: center;
   background: #3d5377;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 15px;
+  width:  30%;
+ 
 }
 img.user{
 	width: 230px;
 	height: 200px;
-	border-radius: 45%;
+	border-radius:20%;
 	position: absolute;
   left: 80px;
-  top: 0px;
+  top: 10px;
 }
 
 .logo{
@@ -122,12 +143,11 @@ img.user{
   }
 }
 div.gallery {
-  margin: 2px;
+  margin: 15px;
   border: 1px solid #ccc;
   float: left;
-  width: 150px;
+  width: 250px;
 }
-
 div.gallery:hover {
   border: 1px solid #777;
 }
@@ -135,9 +155,20 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: 100%;
-
 }
-
+div.secondgallery {
+  margin: 4px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 130px;
+}
+div.secondgallery:hover {
+  border: 1px solid #777;
+}
+div.secondgallery img {
+  width: 100%;
+  height: 100%;
+}
 div.desc {
   padding: 6px;
   text-align: center;
@@ -147,19 +178,62 @@ h3{
 	font-size: 20px;
 	font-family: "Courier New";
 	text-align: justify-all;
+	color: white;
+	 letter-spacing: 2px; 
+	 line-height: 	1.5;
 
+}
+h1{
+	font-family: "Courier New";
+	text-align: justify-all;
+	color: white;
 }
 table, td, th {  
   border: 2px solid #646970;
   text-align: left;
-  color: white;
+  color: black;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
+
 }
 
 th, td {
   padding: 3px;
 } 
+ol.seminar{
+	 text-align: left;
+	 color: black;
+	 font-size: 20px;
+	 font-family: "Courier New";
+	 white-space: 10px;
+	 letter-spacing: 2px;
+	 line-height: 	1.5;
+}
+p{
+ text-align: center;
+	 color: black;
+	 font-size: 20px;
+	 font-family: "Courier New";
+	 letter-spacing: 4px;
+	 line-height: 	1.8;
+}
+.bg-image {
+  /* Full height */
+  height: 50%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("img_snow.jpg"); }
+.img2 { background-image: url("img_girl.jpg"); }
+.img3 { background-image: url("img_lights.jpg"); }
+.img4 { background-image: url("img_nature.jpg"); }
+.img5 { background-image: url("img_forest.jpg"); }
+.img6 { background-image: url("img_woods.jpg"); }
