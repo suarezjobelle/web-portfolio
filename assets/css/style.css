@@ -6,7 +6,7 @@ body {
 padding: 10px;
  background-image: url("../images/key.jpg");
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 110%;
 }
 h2{
 		color: white;
@@ -70,6 +70,7 @@ h2{
   margin-top: 20px; 
     height: 300px;
     opacity: .80;
+    border-radius: 5%
 
 }
 
@@ -88,12 +89,12 @@ h2{
   font-size: 15px;
 }
 img.user{
-	width: 250px;
-	height: 230px;
-	border-radius: 50%;
-position: absolute;
-  left: 50px;
-  top: 10px;
+	width: 230px;
+	height: 200px;
+	border-radius: 45%;
+	position: absolute;
+  left: 80px;
+  top: 0px;
 }
 
 .logo{
